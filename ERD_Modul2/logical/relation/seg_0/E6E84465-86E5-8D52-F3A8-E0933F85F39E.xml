@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="E6E84465-86E5-8D52-F3A8-E0933F85F39E">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 22:04:10 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>Memiliki</nameOnSource>
+<nameOnTarget>Dimiliki</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19737A93-DA5F-44E0-D4A1-5FF77F3EDC68</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0C719020-7A24-EE48-6127-95422656AB67</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7v2" directorySegmentName="seg_0" id="C9CBA298-7119-29A8-466A-F38703434EB0">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 22:36:21 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<sourcePk>11AA12EE-06FE-4A38-0915-6FF47FB43D97</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Berdomisili</nameOnSource>
+<nameOnTarget>Domisili</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>19737A93-DA5F-44E0-D4A1-5FF77F3EDC68</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B33C5F16-8CF0-E5BA-F310-B50711D79BF1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

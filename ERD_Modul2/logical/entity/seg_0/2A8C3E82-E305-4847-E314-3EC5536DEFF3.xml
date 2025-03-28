@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A8C3E82-E305-4847-E314-3EC5536DEFF3" name="Nomor_HP">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:45:51 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nomor_HP" id="23CE3E75-6167-CE73-1EB7-10BF7BB7F1A8">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:46:16 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00C4F4B2-6F22-9520-553B-8CB3DDDAA6A4" name="Key_1">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:46:58 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<newElementsIDs>23CE3E75-6167-CE73-1EB7-10BF7BB7F1A8</newElementsIDs>
+<usedAttributes>
+<attributeRef>23CE3E75-6167-CE73-1EB7-10BF7BB7F1A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

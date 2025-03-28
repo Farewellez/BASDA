@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="0BAD6C3F-30DB-4D78-6FCA-F9CAAF27E266">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 22:28:13 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<sourcePk>678F23B9-0B13-B4A0-CD8C-65C6A1297C6C</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Memiliki</nameOnSource>
+<nameOnTarget>Dari</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CC12D222-3C0C-795F-F936-38B5012C4508</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43258D3B-25BB-DEB5-7E57-C21199D239EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

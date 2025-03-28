@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="9AB17AAE-D1FB-5A90-33FA-719D6606592F">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 22:15:15 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<nameOnSource>Dicatat di</nameOnSource>
+<nameOnTarget>Mencatat</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5D8C2F8-8F5D-D5EB-144A-8579B7EC9EB1</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>43258D3B-25BB-DEB5-7E57-C21199D239EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

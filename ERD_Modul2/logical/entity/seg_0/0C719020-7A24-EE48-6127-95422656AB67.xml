@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C719020-7A24-EE48-6127-95422656AB67" name="Kendaraan">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 12:54:18 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nomor_Plat" id="8349A6E1-1612-CBB0-32A3-B5BD5FBD6FBD">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:15:48 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Merek" id="114FAD4E-BB8F-30C6-CDB6-9411E71D4F72">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:21:12 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tahun_Terbit" id="EFE90161-29D8-2F8C-9346-F8DDF73774D6">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:22:39 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Warna" id="2E759D1A-CB5D-86EC-4741-66E69C5ECD54">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:24:34 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Merek" id="5188A451-093C-BC50-2842-EF72341B385B">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 22:17:56 UTC</createdTime>
+<generatorID>58A92D9D-4849-9849-9131-634F98B0C0DC</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A32E0145-F40A-9C58-4529-FCE553FB84CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB10F3B1-8E44-F51B-CDF1-769DD08BE12E" name="Kendaraan PK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:20:21 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8349A6E1-1612-CBB0-32A3-B5BD5FBD6FBD</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F697950B-F049-33AF-5381-B628CD9FEBC8" name="Key_2">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-27 13:22:12 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<engineerTo>
+<item key="D2760C04-BE30-BDF7-7407-D6B1DF36C961" value="true"/>
+</engineerTo>
+<newElementsIDs>114FAD4E-BB8F-30C6-CDB6-9411E71D4F72</newElementsIDs>
+<usedAttributes>
+<attributeRef>114FAD4E-BB8F-30C6-CDB6-9411E71D4F72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
