@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE89E93-91D2-2BFE-468F-83D944898193" name="Mekanik">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>E5D8C2F8-8F5D-D5EB-144A-8579B7EC9EB1</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nomor_HP" id="7E9A769E-99EB-9414-99C0-B02E28A08392">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>B9643EE8-E764-BBE6-92B4-8EAC3CD90C04</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama" id="C9281585-F105-90EF-2795-CE7686045A68">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>7C011CA5-6398-03B7-F537-6263B9E432AF</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mekanik_ID" id="FE01C04F-D23F-128A-19B4-942013BC2094">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="89F0786C-13FF-FBC4-27F0-6E93560ED6CA" name="Mekanik_PK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="FE01C04F-D23F-128A-19B4-942013BC2094"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C958F05-AC4F-2C98-6859-F58DF4863C2E" name="Mekanik_Nomor_HP_UN">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>B4EBF818-F911-0DF5-B0A7-87D211FB69A6</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E9A769E-99EB-9414-99C0-B02E28A08392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

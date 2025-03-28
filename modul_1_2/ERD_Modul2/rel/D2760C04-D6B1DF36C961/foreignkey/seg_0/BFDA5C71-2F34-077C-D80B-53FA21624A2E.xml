@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFDA5C71-2F34-077C-D80B-53FA21624A2E" containerWithKeyObject="BC8A23CD-7B1E-D250-4037-5C931D579970" localFKIndex="46FC9C81-3674-5DD7-5BA2-5D82FB696F23" name="Detail_Transaksi_Sparepart_FK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:55 UTC</createdTime>
+<generatorID>7869EF5C-1411-8E28-35B8-16A19EAE7828</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<referredTableLongName>Sparepart</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>605F09B5-44F2-8247-7E80-54BEC5659FC8</referredTableID>
+<keyObject>C80CC49C-B50D-25D1-3DE4-FCE3550FBAE6</keyObject>
+<referredKeyID>C80CC49C-B50D-25D1-3DE4-FCE3550FBAE6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Sparepart_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

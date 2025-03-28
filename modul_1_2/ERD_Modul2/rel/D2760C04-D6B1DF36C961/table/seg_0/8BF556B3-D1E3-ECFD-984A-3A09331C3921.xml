@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BF556B3-D1E3-ECFD-984A-3A09331C3921" name="Kendaraan">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>0C719020-7A24-EE48-6127-95422656AB67</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nomor_Plat" id="AC156DF5-2D7E-CA50-E446-70C4322C10EC">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>8349A6E1-1612-CBB0-32A3-B5BD5FBD6FBD</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Merek" id="AF7F14E9-1391-D971-9DF7-21FB6D758FD5">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>114FAD4E-BB8F-30C6-CDB6-9411E71D4F72</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tahun_Terbit" id="A9B04BCE-9309-36E2-31CA-EA57B1C63BDA">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>EFE90161-29D8-2F8C-9346-F8DDF73774D6</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Warna" id="F1924672-93A7-6080-3ED4-9BA9BC65F100">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>2E759D1A-CB5D-86EC-4741-66E69C5ECD54</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Merk_Nama_Merek" id="DBA9B190-C2D8-9BC4-794E-D4ACE5BAEFD3">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>5188A451-093C-BC50-2842-EF72341B385B</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A939842-7B3E-57A1-832A-6EAC77414C67" referredColumn="2873747E-B7EF-C1C7-BA0E-03174D7C442E"/>
+</associations>
+</Column>
+<Column name="Customer_Customer_ID" id="1E23EDEA-98C7-3D93-A98C-D7DBACA46CA4">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4CBC0D45-CF3C-E600-BF37-3B2D36811CC1" referredColumn="C8E92453-6919-C827-E37D-768039C98E63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9826DCA-948C-544B-0924-09177FDD54F1" name="Kendaraan_PK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>BB10F3B1-8E44-F51B-CDF1-769DD08BE12E</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC156DF5-2D7E-CA50-E446-70C4322C10EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BA59F3D-906C-5081-AF32-FB7E9426DC41" name="Kendaraan_Merek_UN">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>F697950B-F049-33AF-5381-B628CD9FEBC8</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF7F14E9-1391-D971-9DF7-21FB6D758FD5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDF91A6B-9A42-E963-C0B1-7D80866D8306" name="Kendaraan_Customer_FK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>E6E84465-86E5-8D52-F3A8-E0933F85F39E</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E23EDEA-98C7-3D93-A98C-D7DBACA46CA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C59766A5-2E8D-D99F-8154-0E936E823CE9" name="Kendaraan_Merk_FK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>58A92D9D-4849-9849-9131-634F98B0C0DC</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBA9B190-C2D8-9BC4-794E-D4ACE5BAEFD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

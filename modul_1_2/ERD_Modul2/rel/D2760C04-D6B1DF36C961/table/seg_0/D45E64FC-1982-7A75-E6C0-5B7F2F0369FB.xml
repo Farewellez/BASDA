@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D45E64FC-1982-7A75-E6C0-5B7F2F0369FB" name="Merk">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>E71FCFA0-C4D9-1041-DCA8-D7B0E1A3826A</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nama_Merek" id="2873747E-B7EF-C1C7-BA0E-03174D7C442E">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>A32E0145-F40A-9C58-4529-FCE553FB84CA</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Merk_ID" id="D1B1A6D2-3BCF-6897-16AF-CB0B8864468F">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AEE446B-09E6-44FE-DAF5-D927DAE6B7B1" name="Merk_PK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="D1B1A6D2-3BCF-6897-16AF-CB0B8864468F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="726AC97D-B100-D3AE-087C-CFE9438DCDA6" name="Merk_Nama_Merek_UN">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>51AD0732-DA5D-A495-8340-6F3F50E16895</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2873747E-B7EF-C1C7-BA0E-03174D7C442E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

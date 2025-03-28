@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8AD4835B-AA4A-90A2-D24B-23CD733EEA80" containerWithKeyObject="BC8A23CD-7B1E-D250-4037-5C931D579970" localFKIndex="AEBB852B-5A8F-49D8-D0E4-4B9D17A7CD2F" name="Detail_Transaksi_Mekanik_FK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>9AB17AAE-D1FB-5A90-33FA-719D6606592F</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<referredTableLongName>Mekanik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DFE89E93-91D2-2BFE-468F-83D944898193</referredTableID>
+<keyObject>89F0786C-13FF-FBC4-27F0-6E93560ED6CA</keyObject>
+<referredKeyID>89F0786C-13FF-FBC4-27F0-6E93560ED6CA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Mekanik_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

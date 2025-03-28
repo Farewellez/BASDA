@@ -65,7 +65,7 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="553" y="281" width="55" height="30"/>
+<labelBounds x="536" y="281" width="55" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
@@ -76,7 +76,7 @@
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
 <points>
-<point x="536" y="314"/>
+<point x="536" y="317"/>
 <point x="778" y="64"/>
 </points>
 </Connector>
@@ -107,13 +107,13 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="75" y="280" width="37" height="30"/>
+<labelBounds x="78" y="280" width="37" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
 <targetLabel class="oracle.dbtools.crest.model.design.Label">
 <site>2</site>
-<labelBounds x="75" y="299" width="64" height="30"/>
+<labelBounds x="75" y="291" width="64" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </targetLabel>
@@ -149,7 +149,7 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="811" y="116" width="82" height="30"/>
+<labelBounds x="811" y="108" width="82" height="30"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>
@@ -161,7 +161,7 @@
 </targetLabel>
 <points>
 <point x="811" y="64"/>
-<point x="811" y="261"/>
+<point x="811" y="309"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="9AB17AAE-D1FB-5A90-33FA-719D6606592F" otype="Relation" vid_source="E4D0F7D0-86D2-3EFA-81DB-9EEF3161BE62" vid_target="A099B5AC-2670-26E7-C1DF-E4F08132ECCF">
@@ -191,7 +191,7 @@
 <lineWidth>1</lineWidth>
 <sourceLabel class="oracle.dbtools.crest.model.design.Label">
 <site>0</site>
-<labelBounds x="395" y="108" width="73" height="34"/>
+<labelBounds x="395" y="68" width="73" height="34"/>
 <noBackgroundColor>true</noBackgroundColor>
 <noForegroundColor>true</noForegroundColor>
 </sourceLabel>

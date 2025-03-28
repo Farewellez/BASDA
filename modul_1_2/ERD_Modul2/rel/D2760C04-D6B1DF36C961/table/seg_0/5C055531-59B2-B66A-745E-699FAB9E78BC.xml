@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C055531-59B2-B66A-745E-699FAB9E78BC" name="Transaksi">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>CC12D222-3C0C-795F-F936-38B5012C4508</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Tanggal_Transaksi" id="44A79277-9AEC-87B4-375E-8B63614C6117">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>38A38652-D046-7992-7DD1-3A17FB83A3EA</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Barang" id="820855A3-BFF3-DEBA-F923-44FD63A15EE9">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>40F2E8E7-636E-5EF3-CE23-3776FB0F1E6D</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Total_Harga" id="44D3C11B-DEE7-1841-8BDB-9F4CCA2C1B75">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>44777CD6-D4B9-5450-9EB4-FFD60DA67953</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status_Transaksi" id="BB9063CD-1E15-3AC1-9177-D4BADF9B54F3">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>92001863-9913-7056-173C-4E54FD8377A9</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaksi_ID" id="12CB6772-0354-E81C-3529-2B67AC24BDE9">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Customer_Customer_ID" id="8833B30E-7732-3664-5572-8E2EC0FD52A7">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40CEB294-C3A8-CC73-6C3F-912E5ABE50E9" referredColumn="C8E92453-6919-C827-E37D-768039C98E63"/>
+</associations>
+</Column>
+<Column name="Status_Transaksi_Status_Transaksi_ID" id="B42C2796-F759-9642-DE2B-86A22115D763">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:55 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6229847C-FB38-4A33-B9ED-A7D234D4584E" referredColumn="C0BC7B12-5138-FFEC-1B59-24BE53970015"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC228E62-E530-8C21-1752-283D10607328" name="Transaksi_PK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="12CB6772-0354-E81C-3529-2B67AC24BDE9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10DEA11D-556B-242C-5707-1310BB2A5101" name="Transaksi_Tanggal_Transaksi_UN">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>678F23B9-0B13-B4A0-CD8C-65C6A1297C6C</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44A79277-9AEC-87B4-375E-8B63614C6117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01850E4C-B174-7B6C-52EC-76F891234571" name="Transaksi__IDX">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:55 UTC</createdTime>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E03C65A1-E62C-B4C6-70DA-39005BA5AF07</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B42C2796-F759-9642-DE2B-86A22115D763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6AF274B2-AF71-67C6-77A4-74F76D7AD0E5" name="Transaksi_Customer_FK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>728CFC33-2F58-6D3C-5DC6-A99F7FFC08E1</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8833B30E-7732-3664-5572-8E2EC0FD52A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="022AEA88-7F61-F26B-39C8-9F453C801537" name="Transaksi_Status_Transaksi_FK">
+<createdBy>ZAFARELL</createdBy>
+<createdTime>2025-03-28 03:55:54 UTC</createdTime>
+<generatorID>E03C65A1-E62C-B4C6-70DA-39005BA5AF07</generatorID>
+<ownerDesignName>ERD_Modul2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B42C2796-F759-9642-DE2B-86A22115D763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
